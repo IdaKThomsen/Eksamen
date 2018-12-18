@@ -1,0 +1,125 @@
+#pagewrap{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "billede"
+        "billede"
+        "hvorformultimediedesign"
+        "opgavenisigselv"
+        "reflektion";
+}
+
+
+#billede{
+    grid-area: billede;
+    max-width: 100%;
+    height: auto;
+}
+
+#hvorformultimediedesign{
+    grid-area: hvorformultimediedesign;
+    position: sticky;
+    background-color: aqua;
+    text-align: center;
+}
+
+#opgavenisigselv{
+    grid-area: opgavenisigselv;
+    position: sticky;
+    background-color: pink;
+    text-align: center;
+}
+
+#reflektion{
+    grid-area: reflektion;
+    position: sticky;
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1{
+    font-family: "raleway";
+    font-size: 30px;
+}
+
+p{
+    font-family: "Source Sans Pro"; 
+    font-size: 20px;
+}
+
+#fod{
+    text-align: center;
+    float: none;
+}
+
+#quote{
+    grid-area: quote;
+    display: none;
+}
+
+
+@media screen and (min-width:520px){
+    
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "billede billede"
+        "billede billede"
+        "hvorformultimediedesign hvorformultimediedesign"
+        "opgavenisigselv opgavenisigselv"
+        "reflektion reflektion";
+        
+        }
+    
+    
+    h1{
+        font-size: 50px;
+        }
+    
+    p{ 
+        font-size: 30px;
+        }
+    
+    #quote{
+    grid-area: quote;
+    display: none;       
+}
+
+    
+}
+
+@media screen and (min-width:900px){
+    
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "billede hvorformultimediedesign hvorformultimediedesign "
+        "opgavenisigselv opgavenisigselv opgavenisigselv"
+        "reflektion reflektion quote";
+        }
+    
+    h1{
+        font-size: 50px;
+        }
+    
+    p{ 
+        font-size: 37px;
+        }
+    
+    #quote{
+    grid-area: quote;
+    height: 100%;
+    width: 100%;
+    }
+    
+    
+    
+}
