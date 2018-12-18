@@ -37,15 +37,9 @@ p{
     
 }
 
-ul li::before{
+ul li{
    font-family: "Source Sans Pro"; 
    font-size: 15px; 
-    content: "\2022";
-    color: pink;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
 }
     
 
