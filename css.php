@@ -11,30 +11,62 @@
         "css"
         "cssinfo"
         "pei"
-        "syntax";
+        "emb"
+        "inli"
+        "syntax"
+        "kilde"
+        "tiltop";
     }
     
 #css{
     grid-area:css;
-    background-color:olive;
+    
 }
+    
+#cinfo{
+     text-align: center;   
+    }
 
 #cssinfo{
     grid-area: cssinfo;
-    background-color:olive;
+    border-bottom: solid #e589ba 1px;
+    
 }
 
 #pei{
     grid-area: pei;
-    background-color:olive;
+    
 }
 
+#emb{
+        grid-area: emb;
+    }
+
+#inli{
+        grid-area: inli;
+    }    
+    
+    
+    
 #syntax{
     grid-area: syntax;
-    background-color: olive;
-
+    border-top: solid #e589ba 1px;
 }
     
+#kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+#tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+        }
+    
+
 
 @media screen and (min-width:500px){
     
@@ -45,8 +77,10 @@
     grid-template-areas:
         "css css"
         "cssinfo cssinfo "
-        "syntax syntax
-        "pei pei";
+        "pei inli" 
+        "emb emb"
+        "syntax syntax"
+        "kilde tiltop";
         }
 }
 
@@ -59,8 +93,9 @@
     grid-template-areas:
         "css css css"
         "cssinfo cssinfo cssinfo"
-        "pei pei pei" 
-        "syntax syntax syntax";
+        "pei emb inli"
+        "syntax syntax syntax"
+        "kilde kilde tiltop";
         }   
     }
     
@@ -79,7 +114,7 @@
             </div>    
             
             <div id="cssinfo">
-                <p>
+                <p id="cinfo">
                 CSS står for "cascading style sheets" og er et "sprog" der beskriver udssende.
                 </p>
                 
@@ -97,14 +132,17 @@
             <div id="pei">
                 <h2>Placering </h2>
                 <p>
-                Man har forskellige muligheder for at placere sit CSS, det er meget op til hvad man selv virker bedst for en selv.  
+                Man har forskellige muligheder for at placere sit CSS, det er meget op til hvad man selv virker bedst for en selv.
+                Der er mulighed for Embeded, Inline eller i eksternt (link).
                 </p>
-                
+            </div>      
+            <div id="emb">    
                 <h2>Embed</h2>
                 <p>
-                dette skal skrives i starten af ens HTML under &lt;head&gt;  &lt;/head&gt;  dette kan dog blive uoverskueligt da man så skal rulle meget langt ned for at komme til ens egentlige HTML.
+                dette skal skrives i starten af ens HTML under &lt;head&gt;  &lt;/head&gt; efterfulgt af &lt;style&gt; &lt;/style&gt; dette kan dog blive uoverskueligt da man så skal rulle meget langt ned for at komme til ens egentlige HTML. Det kan som i mit tilfælde dog være en fordel, da jeg har mange sider, så i stedet for at lave eksterne dokumenter (link) så har jeg mit css Embeddet i alle mine html dokumenter. 
                 </p>
-
+            </div>
+            <div id="inli">  
                 <h2>Inline</h2>
                 <p>
                 Man kan også anvende inline styling til sit CSS. Det vil sige at man laver stylingen direkte i ens tag - Dette er ikke en god metode at bruge da det kan blive svært at finde rundt i.
@@ -117,11 +155,28 @@
                 <h2>CSS syntaks</h2>
                 <p>
                 For at kunne style i sit HTML er det vigtigt at vælge den rigtige selector. Ens selector kan være givet en .class eller et #id.
-                I dette tilfælde er den selector der er valgt " .container" som bliver efterfulgt af en krøllet parentes, så kommer property som fortæller noget om hvad det er man genre vil ændre på, i eksemplet er det width som er efterfulgt af et kolon også kaldt en værdi separator næst kommer værdien som er 88% i eksemplet, dette kunne også skrives i em eller Px.  Den sluttes med et semikolon og sluttes helt med en krøllet parentes.  
+                Hvis det er en selector der er valgt skriver man " .container" som bliver efterfulgt af en krøllet parentes, så kommer property som fortæller noget om hvad det er man genre vil ændre på, i eksemplet er det width som er efterfulgt af et kolon også kaldt en værdi separator næst kommer værdien som er 88% i eksemplet, dette kunne også skrives i em eller pixels (Px). Den sluttes med et semikolon og sluttes helt med en krøllet parentes.  
                 </p>
             
             </div>
     
+            <div id="kilde">
+
+                <h4> kilder </h4> 
+                <h4> Intro til css - Niels Østergaard - PP</h4> 
+                <h4> </h4>  
+                <h4>  </h4>
+            </div>
+    
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/css.php"><img src="billeder/%20blomsttop.jpg"></a>
+            </div>
+    
+            
+            
+            
+    
+            
 </div> <!--pagewrap slutter -->    
 
 

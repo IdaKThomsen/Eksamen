@@ -28,6 +28,7 @@
 
 #femperioder{
     grid-area: femperioder;
+    border-top: solid #e589ba 1px;
 } 
 #kilde{
         grid-area: kilde;
