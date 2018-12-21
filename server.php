@@ -3,63 +3,77 @@
 
 <style>
 
-#pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-columns: 1fr;
-    grid-template-areas:
-        "server"
-        "infoserver"
-        "typerserver";
-    }
+        #pagewrap{
+                display: grid;
+                grid-gap: 0px;
+                grid-auto-columns: 1fr;
+                grid-template-areas:
+                    "server"
+                    "infoserver"
+                    "typerserver"
+                    "kilde"
+                    "tiltop";
+            }
 
-#server{
-    grid-area: server;
-    background-color:hotpink;
-}
+        #server{
+            grid-area: server;
 
-#infoserver{
-    grid-area: infoserver;
-    background-color: hotpink;
-}
+            }
 
-#typerserver{
-    grid-area: typerserver;
-    background-color: hotpink;
-    
-    
-}
+        #infoserver{
+            grid-area: infoserver;
+            border-bottom: solid #e589ba 1px;
+            }
 
-    
-@media screen and (min-width:500px){
-    #pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-columns: 1fr 1fr;
-    grid-template-areas:
-        "server server"
-        "infoserver infoserver"
-        "typerserver typerserver";
-    }
+        #typerserver{
+            grid-area: typerserver;
 
-}
+            }
 
-@media screen and (min-width:900px){
-    #pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-        "server server server"
-        "infoserver infoserver infoserver "
-        "typerserver typerserver typerserver"
-       ;
+
+        #kilde{
+            grid-area: kilde;
+            border: solid #e589ba 1px;
+            margin: 10px;
+            }
+
+        #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+             }
+
+    @media screen and (min-width:500px){
+        #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr 1fr;
+        grid-template-areas:
+            "server server"
+            "infoserver infoserver"
+            "typerserver typerserver"
+            "kilde tiltop";
+            }
+        }
+
+    @media screen and (min-width:900px){
+        #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "server server server"
+            "infoserver infoserver infoserver "
+            "typerserver typerserver typerserver"
+            "kilde kilde tiltop";
+            }
         }
     
 </style>
             
 
-    </head>
+</head>
 
     <body>
 
@@ -99,8 +113,21 @@
                     <dt>RDB server</dt>
                         <dd> ( remote desktop - man kan styre andres computere( andre maskiner)</dd>
                 </dl> 
+            </div>
+    
+    
+            <div id="kilde">
+                <h4> kilder </h4> 
+                <h4> Client and Server Model - Video</h4> 
+                <h4> Internettet og serveren - Niels Østergaard </h4>  
                 
             </div>
-</div>
+            
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/server.php"><img src="billeder/%20blomsttop.jpg"></a>
+            </div>
+    
+
+</div> <!-- pagewrap slutter -->
 
 <?php include "foot.inc"; ?>

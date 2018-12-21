@@ -36,9 +36,8 @@
               <a class="dropdown-item" href="kommunikation.php">Kommunikation</a>
               <a class="dropdown-item" href="produktionsmodeller.php">Produktionsmodeller</a>
               
-              <a class="dropdown-item" href="#">Præsentationsteknik</a>
+              <a class="dropdown-item" href="præsentationsteknik.php">Præsentationsteknik</a>
                 
-                <a class="dropdown-item" href="#">Produktionsmodeller</a>
               
                 <a class="dropdown-item" href="#">Digitalemedier/Platforme</a>
               

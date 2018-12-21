@@ -10,29 +10,37 @@
         "historie"
         "worldplaceofknowledge"
         "internettet"
-        "femperioder";
+        "femperioder"
+        "kilde"
+        "tiltop";
     }
 
 #historie{
     grid-area: historie;
-    background-color: aqua;
 }
 #worldplaceofknowledge{
     grid-area: worldplaceofknowledge;
-    background-color: aqua;
 }
 
 #internettet{
     grid-area: internettet;
-    background-color: aqua;
 }
 
 #femperioder{
     grid-area: femperioder;
-    background-color: aqua;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
 } 
+#kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+#tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
     
     
 @media screen and (min-width:500px){
@@ -44,7 +52,8 @@
     grid-template-areas:
         "historie historie"
         "worldplaceofknowledge internettet"
-        "femperioder femperioder";
+        "femperioder femperioder"
+        "kilde tiltop";
     }
 }
 
@@ -57,9 +66,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "historie historie historie"
-        "worldplaceofknowledge worldplaceofknowledge worldplaceofknowledge"
-        "internettet internettet internettet"
-        "femperioder femperioder femperioder";
+        "worldplaceofknowledge internettet internettet"
+        "femperioder femperioder femperioder"
+        "kilde kilde tiltop";
         }
 
 }
@@ -126,6 +135,19 @@
                 <p>skriv mere her</p>    
         
             </div>
+            
+            <div id="kilde">
+            
+                <h4> kilder </h4> 
+                <h4> History of the Internet - Melih Bilgil - Video.</h4> 
+                <h4> Navigating Knowledge - Video </h4>  
+                <h4> Tim Berners-Lee - The World Wide Web - Video </h4>  
+                </div>
+            
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/historie.php"><img src="billeder/%20blomsttop.jpg"></a>
+            </div>
+            
         
         </div> <!-- pagewrap slut !-->
 

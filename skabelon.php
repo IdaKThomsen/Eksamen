@@ -12,24 +12,45 @@
     
     <div id="pagewrap">
         
-        <div id="produktionsmodeller">
-        <h1> Produktionsmodeller</h1>
-        <p> 
-            Produktionsmodeller anvendes når man vil igangsætte opgaven med kunden. 
-            Altså man kan begynde at planlægge det konkrete produkt og på den måde finde frem til konkret indhold.
-        </p>
-        </div>
-        
-        <div id="deniogtyvespg">
-        
-        
-        </div>
-      
-      
     
       
       
+    til billedet blomst 
+        
+        <div id="tiltop">
+        <a href="http://idak0001.web.eadania.dk/Portfolio/index.php"><img src="billeder/%20blomsttop.jpg"></a>
+        </div>
+        
+        
+        #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
+        
+        
+        husk at sætte i grid! 
+        
+        kilder --> 
+        
+        <div id="kilde">
+            
+            <h4> kilder </h4> 
+            <h4> History of the Internet - Melih Bilgil - Video.</h4> 
+            <h4> Navigating Knowledge - Video </h4>  
+            <h4> Tim Berners-Lee - The World Wide Web - Video </h4>
+        </div>
       
+      
+        #kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+      
+        
+        husk at sætte i grid! 
       
     </div>  
     

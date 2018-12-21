@@ -11,7 +11,8 @@
                     "ida"
                     "hvorformultimediedesign"
                     "opgavenisigselv"
-                    "reflektion";
+                    "reflektion"
+                    "tiltop";
             }
 
             #billede{
@@ -19,50 +20,50 @@
                 text-align: right;
                 background-color: fafafa;
                 padding: 0;
+                border-bottom: solid #e589ba 1px;
             }
 
             #ida{
                 max-width: 100%;
-                vertical-align: text-bottom;
+                vertical-align: text-bottom;  
             }
-
 
             #hvorformultimediedesign{
                 grid-area: hvorformultimediedesign;
                 position: sticky;
-                background-color: lightcoral;
                 text-align: center;
+                border-bottom: solid #e589ba 1px;
+                padding-top: 5px;
             }
 
             #opgavenisigselv{
                 grid-area: opgavenisigselv;
                 position: sticky;
-                background-color: pink;
                 text-align: center;
+                border-bottom: solid #e589ba 1px;
+                padding-top: 15px;
             }
 
             #reflektion{
                 grid-area: reflektion;
                 position: sticky;
-                background-color: greenyellow;
                 text-align: center;
-            }
-
-            h1{
-                font-family: "raleway";
-                font-size: 30px;
-            }
-
-            p{
-                font-family: "Source Sans Pro"; 
-                font-size: 20px;
+                border-bottom: solid #e589ba 1px;
+                padding-top: 15px;
             }
 
             #quote{
                 grid-area: quote;
                 display: none;
-
             }
+        
+            #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
+        
 
 
             @media screen and (min-width:500px){
@@ -75,18 +76,11 @@
                     "ida ida"
                     "hvorformultimediedesign hvorformultimediedesign"
                     "opgavenisigselv opgavenisigselv"
-                    "reflektion reflektion";
+                    "reflektion reflektion"
+                    ". tiltop";
 
                     }
 
-
-                h1{
-                    font-size: 25px;
-                    }
-
-                p{ 
-                    font-size: 20px;
-                    }
 
                 #quote{
                 grid-area: quote;
@@ -109,29 +103,18 @@
                     grid-template-areas:
                     "ida hvorformultimediedesign hvorformultimediedesign "
                     "opgavenisigselv opgavenisigselv opgavenisigselv"
-                    "reflektion reflektion quote";
-                    }
-
-                h1{
-                    font-size: 30px;
-                    }
-
-                p{ 
-                    font-size: 25px;
+                    "reflektion reflektion quote"
+                    ". . tiltop";
                     }
 
                 #quote{
                     grid-area: quote;
-                    background-color: aqua;
-                    display: block;
-                    
-                 
-                }
+                    display: block;   
+                 }
                 
                 #quoteimg{
                     width: 100%;
-                    
-                }
+                     }
             
             }
 
@@ -194,6 +177,10 @@
             
     <div id="quote">
         <img id="quoteimg" src="billeder/quote6.jpg">
+    </div>
+        
+    <div id="tiltop">
+        <a href="http://idak0001.web.eadania.dk/Portfolio/index.php"><img src="billeder/%20blomsttop.jpg"></a>
     </div>
         
       </div> <!-- pagewrap slut -->

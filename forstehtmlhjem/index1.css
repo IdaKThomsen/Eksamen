@@ -1,0 +1,104 @@
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+
+/*  END RESET */
+
+
+body{line-height:1.5;}
+
+#main{
+    width: 85%;
+    margin: auto;
+    }
+
+h1,h2,h3,footer{font-family: sans-serif;}
+
+h2,h3{
+    border-bottom: solid;
+    border-bottom-color: #4aaadd;
+    color: #467df8;
+    text-align:left;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em; 
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+    
+        
+    
+    }
+
+h1{
+    color: #2253c1;
+    text-align:center;
+    background-color: #bfdfed;
+    font-size: 2em;
+    
+}
+footer{
+    color: #2253c1;
+    text-align:center;
+    background-color: #bfdfed
+}
+
+/* 3 billeder på linje*/
+
+.colum {
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* clear floats efter billede linje*/
+
+.row::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+
+
+ul{
+    background: #92c2f2;
+    padding: 20px;
+    margin-left: 5px;
+  
+}
+
+li {
+    background: #ccddee;
+    margin: 5px;
+    margin-left: 5px;
+}
+
+#sidsteinfo{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    
+    
+    
+}
+
+
+

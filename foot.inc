@@ -1,5 +1,5 @@
  <footer>
-       <p> &copy; Ida Korsbæk Thomsen - MMD 2018 - EaDania Skive </p>
+       &copy; Ida Korsbæk Thomsen - MMD 2018 - EaDania Skive
         
 </footer>    
 

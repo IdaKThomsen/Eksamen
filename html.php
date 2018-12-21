@@ -14,41 +14,67 @@
         "semantiske"
         "hyper"
         "validering"
+        "ovelser"
+        "kilde"
+        "tiltop"
        ;
+    }
+    
+    #html{
+        text-align: center;
     }
 
 #tml{
     grid-area: tml;
-    background-color: aquamarine;
+    
 }
 
 #opbygning{
     grid-area: opbygning;
-    background-color: aquamarine;
+    
 }
 
 #indryk{
     grid-area: indryk;
-    background-color: aquamarine;
+    
 
 }
 
 #semantiske{
     grid-area: semantiske;
-    background-color: aquamarine;
+    
 }
 
 #hyper{
     grid-area: hyper;
-    background-color: aquamarine;
+    
     
 }
 
 #validering{
     grid-area: validering;
-    background-color: aquamarine;
+    
     
 }
+    
+    #ovelser{
+        grid-area: ovelser;
+    }
+    
+   #tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+            } 
+
+    #kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+
   
 @media screen and (min-width:500px){
     
@@ -60,7 +86,9 @@
         "tml tml"
         "opbygning opbygning"
         "semantiske hyper"
-        "validering indryk";
+        "validering indryk"
+        "ovelser ovelser" 
+        "kilde tiltop";
     }
 
 }
@@ -75,7 +103,8 @@
         "tml tml tml"
         "opbygning opbygning opbygning"
         "hyper indryk validering"
-        "semantiske semantiske semantiske";
+        "semantiske semantiske semantiske"
+        "ovelser kilde tiltop";
         }
 
 }
@@ -93,11 +122,11 @@
 
 
     
-<div id="pagewrap"> 
+    <div id="pagewrap"> 
 
-<div id="tml">
+            <div id="tml">
                 <h1> HTML </h1>
-                <p>
+                <p id="html">
                     HTML betyder Hypertext Markup Language og bliver brugt til at definere indholdet til en webside.
                 </p>
                 
@@ -161,11 +190,31 @@
                 <p>
                 Når man har lavet noget HTML, er det en god ide at få det tjekket igennem af et program som kan sørge for at ens kode er brugbar. 
                 På den måde undgår man fejl og mangler på ens side. 
-                
                 </p>  
+            </div>
+        
+            <div id="ovelser">
+            <h2> Øvelser</h2>
+            <p> Vi fik til opgave at beskrive hvad vi vidste om HTML, semantiske tags og atributter. Vi skulle lave 3 forskellige sider, hvor de alle var linket sammen. Jeg prøvede hjemme at sætte 3 billeder ind på række, men det lykkedes mig ikke.
+            hvis jeg skulle løse opgaven i dag, ville jeg anvende grid, eller have lavet billedet i photoshop. 
+            </p>
+            <a href="forstehtmlhjem/index1.php"> I kan se mit forsøg her </a>
             
             </div>
-    </div>
+        
+            <div id="kilde">
+                <h4> kilder </h4> 
+                <h4> intro til html - Niels Østergaard - pp</h4> 
+                <h4> Basic HTML syntax - James Williamson - Lynda video</h4>      
+            </div>
+        
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/html.php"><img src="billeder/%20blomsttop.jpg"></a>
+            </div>
+        
+        
+        
+    </div> <!-- pagewrap slutter-------------------- --> 
     
 
 <?php include "foot.inc"; ?>
