@@ -2,6 +2,8 @@
 
 <style>
 
+   
+    
 #pagewrap{
     display: grid;
     grid-gap: 0px;
@@ -15,57 +17,68 @@
         "wire"
         "mock"
         "infoark"
-        "proto";
+        "proto"
+        "kilde"
+        "tiltop";
     }
     
 #planover{
-    grid-area: planover;
-    background-color: lightyellow;
+    grid-area: planover;   
 }
 
 #pinfo{
-    grid-area: pinfo;
-    background-color: lightyellow;
+    grid-area: pinfo;  
+    border-bottom: solid #e589ba 1px;
 }
 
 
 #mogd{
     grid-area: mogd;
-    background-color: lightyellow;
+    border-bottom: solid #e589ba 1px;
 }
 
 #brain{
     grid-area: brain;
-    background-color: lightyellow;
+    border-bottom: solid #e589ba 1px;
+    
 }
 
 #stories{
     grid-area: stories;
-    background-color: lightyellow;
+    border-bottom: solid #e589ba 1px;
 }
-
 
 #wire{
     grid-area: wire;
-    background-color: lightyellow;
 }
 
 #mock{
     grid-area: mock;
-    background-color: lightyellow;
 }
 
 #infoark{
     grid-area: infoark;
-    background-color: lightyellow;
     
 }
 
-
 #proto{
     grid-area: proto;
-    background-color: lightyellow;
 }
+
+#kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+#tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+            }
+    
+
     
 @media screen and (min-width:500px){
     
@@ -76,15 +89,18 @@
     grid-template-areas:
         "planover planover "
         "pinfo pinfo" 
-        "mogd mogd"
-        "stories stories"
-        "brain brain"
-        "wire wire"
-        "mock mock"
-        "infoark infoark"
-        "proto proto";
+        "mogd stories"
+        "brain wire"
+        "mock infoark"
+        "proto proto"
+        "kilde tiltop";
     }
  
+   #wire{
+    grid-area: wire;
+    border-bottom: solid #e589ba 1px;
+} 
+    
 }
 
 @media screen and (min-width:900px){
@@ -96,14 +112,17 @@
     grid-template-areas:
         "planover planover planover"
         "pinfo pinfo pinfo"
-        "mogd mogd mogd"
-        "stories stories stories"
-        "brain brain brain "
-        "wire wire wire"
-        "mock mock mock"
-        "infoark infoark infoark"
-        "proto proto proto";
+        "mogd stories brain"
+        "wire mock infoark"
+        "proto proto proto"
+        "kilde tiltop tiltop";
         }
+    
+  #wire{
+    grid-area: wire;
+    border-style: none;
+}     
+    
 }
 
 </style>
@@ -186,14 +205,25 @@
             
             <div id="infoark">
                 <h2>Informations arkitektur </h2>
+                <p>Hvis i klikker <a href="http://idak0001.web.eadania.dk/Portfolio/informationsarkitektur.php">HER</a> vil i kunne læse mere om hvad informationsarkitektur er, og hvordan vi har brugt det i praksis </p>
                 
             </div>
-                <!-- indsæt link til informationsarkitektur som er længere oppe --> 
+                
             <div id="proto">
                 <h2>Prototype</h2>
                 <p>Når alle andre faser i værktøjskassen er kørt igennem, kommer man til at lave prototypen. 
                 Denne fase er her hvor man arbejder på at komme frem til ens færdige produkt. Her ser man virkelig hvordan produktet fungere i praksis. Det kan være at prototypen ikke fungerer som tænkt, men der er stadig muligheder for løbende rettelser. 
                 </p>
+            </div>
+    
+            <div id="kilde">
+            
+                <h4> kilder </h4> 
+                <h4> Planning And High Level Design - Pdf  </h4>  
+                </div>
+            
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/planl%C3%A6gningoverordnetdesign.php"><img src="billeder/%20blomsttop.jpg"></a>
             </div>
 
     </div> <!-- pagewrap slut --> 

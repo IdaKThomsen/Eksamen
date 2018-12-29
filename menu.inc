@@ -39,11 +39,11 @@
               <a class="dropdown-item" href="præsentationsteknik.php">Præsentationsteknik</a>
                 
               
-                <a class="dropdown-item" href="#">Digitalemedier/Platforme</a>
+                <a class="dropdown-item" href="Digitalemedierogplatforme.php">Digitalemedier/Platforme</a>
               
-                <a class="dropdown-item" href="#">Tekstproduktion</a>
+                <a class="dropdown-item" href="tekstproduktion.php">Tekstproduktion</a>
               
-                <a class="dropdown-item" href="#">Brugertest</a>
+                <a class="dropdown-item" href="brugertest.php">Brugertest</a>
               
                 <a class="dropdown-item" href="#">Business Model Canvas</a>    
             </div>

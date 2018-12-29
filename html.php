@@ -20,7 +20,7 @@
        ;
     }
     
-    #html{
+#html{
         text-align: center;
     }
 
@@ -31,6 +31,8 @@
 
 #opbygning{
     grid-area: opbygning;
+    border-bottom: solid #e589ba 1px;
+   
     
 }
 
@@ -59,6 +61,7 @@
     
     #ovelser{
         grid-area: ovelser;
+        border-top: solid #e589ba 1px;
     }
     
    #tiltop{
@@ -85,12 +88,24 @@
     grid-template-areas:
         "tml tml"
         "opbygning opbygning"
-        "semantiske hyper"
-        "validering indryk"
+        "indryk hyper"
+        "semantiske validering"
         "ovelser ovelser" 
         "kilde tiltop";
     }
 
+#semantiske{
+    grid-area: semantiske;
+    border-bottom: solid #e589ba 1px;
+}
+
+#validering{
+    grid-area: validering;
+    border-bottom: solid #e589ba 1px;
+}   
+    
+
+    
 }
 
 @media screen and (min-width:900px){
@@ -106,6 +121,22 @@
         "semantiske semantiske semantiske"
         "ovelser kilde tiltop";
         }
+    
+    #semantiske{
+    grid-area: semantiske;
+    border-bottom: none;
+    border-top: solid #e589ba 1px;
+    }
+
+#validering{
+    grid-area: validering;
+    border-bottom: none;
+    } 
+    
+ #ovelser{
+    grid-area: ovelser;
+    border-top: none;
+    }
 
 }
     

@@ -26,11 +26,13 @@
             "forbered"
             "Fremfør"
             "kilde"
+            "tiltop"
             ;
     }
 
     #præsentationsteknik{
         grid-area: præsentationsteknik;
+        border-bottom: solid #e589ba 1px;
 
     }
 
@@ -46,6 +48,7 @@
 
     #kropssprog{
         grid-area: kropssprog;
+        border-top: solid #e589ba 1px;
 
     }
 
@@ -73,6 +76,8 @@
 
     #defemfaser{
         grid-area: defemfaser;
+        border-top: solid #e589ba 1px;
+        
     }
 
     #findstoffet{
@@ -106,9 +111,16 @@
 
     #kilde{
         grid-area: kilde;
-        border: solid black 1px;
+        border: solid #e589ba 1px;
         margin: 10px;
     }
+    
+    #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
     
     #tbillede{
        max-width: 100%; 
@@ -138,7 +150,8 @@
             "disponer stoffet"
             "fiskbillede fiskbillede"
             "formuler forbered"
-            "Fremfør kilde"
+            "Fremfør Fremfør"
+            "kilde tiltop"
             ;
         }  
         
@@ -183,7 +196,7 @@
             "findstoffet stoffet disponer"
             "fiskbillede fiskbilledefiskbillede"
             "formuler forbered Fremfør"
-            "kilde kilde kilde"
+            "kilde tiltop tiltop"
             ;
         }   
 
@@ -410,6 +423,10 @@
             <h4> kilder </h4> 
             <h4> Kilde Præsentation og formidling -  Mette Hald - pdf.</h4> 
             <h4> Kilde Præsentationsteknik MMD 18092018 - Mariann - PP</h4>   
+        </div>
+        
+         <div id="tiltop">
+            <a href="http://idak0001.web.eadania.dk/Portfolio/index.php"><img src="billeder/%20blomsttop.jpg"></a>
         </div>
             
     </div>  <!-- pagewrap slutter her ----------- --> 

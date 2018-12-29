@@ -8,23 +8,51 @@
         grid-template-areas:
            "produktionsmodeller"
             "deniogtyvespg"
-            "nybollemodel";
+            "nybollemodel"
+            "nybmodel"
+            "kilde"
+            "tiltop";
         }
 
         #produktionsmodeller{
             grid-area: produktionsmodeller;
-            background-color: aliceblue;
+            border-bottom: solid #e589ba 1px;
+
             }
         
         #deniogtyvespg{
-            grid-area: deniogtyvespg;
-            background-color: azure;
+            grid-area: deniogtyvespg; 
+            border-bottom: solid #e589ba 1px;
+            margin-bottom: 20px;
             }
         
         #nybollemodel{
-            grid-area: nybollemodel;
-            background-color: antiquewhite;
+            grid-area: nybollemodel;  
+            }
+        
+        nybmodel{
+            grid-area: nybmodel;
         }
+        
+        bbillede{
+            max-width:100%;
+            margin: 20px;
+            text-align: center;
+        }
+        
+        #kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+        
+        #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
+        
     
     @media screen and (min-width:500px){
         
@@ -35,7 +63,8 @@
         grid-template-areas:
            "produktionsmodeller produktionsmodeller"
             "deniogtyvespg deniogtyvespg"
-            "nybollemodel nybollemodel";
+            "nybollemodel nybmodel"
+            "kilde tiltop";
             }
             
         }
@@ -49,8 +78,10 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
         "produktionsmodeller produktionsmodeller produktionsmodeller"
-        "deniogtyvespg deniogtyvespg nybollemodel";
-            }    
+        "deniogtyvespg deniogtyvespg deniogtyvespg"
+        "nybollemodel nybollemodel nybmodel"
+        "kilde tiltop tiltop";
+         }    
             
         }
     </style>
@@ -134,7 +165,23 @@
                 <dd>Er måden hele projektet er lavet på. Det er vigtigt at overveje hvilken tekst man vil skrive og hvilke billeder ma vil bruge, alt dette kommer meget an på målgruppen  </dd>
         </dl> 
         
-        </div>    
+        </div>
+        
+        <div id="nybmodel">
+         <img id="bbillede" src="billeder/nybolmodel1.png">
+        </div>
+        
+        <div id="kilde">
+            
+            <h4> kilder </h4> 
+            <h4> Kommunikation i multimediedesign - Kap 8 - produktionsmodeller til løsninger s. 113-127 </h4> 
+            
+        </div>
+        
+        <div id="tiltop">
+        <a href="http://idak0001.web.eadania.dk/Portfolio/produktionsmodeller.php"><img src="billeder/%20blomsttop.jpg"></a>
+        </div>
+        
       
     </div> <!---------- pagewrap slut-- --!>  
     

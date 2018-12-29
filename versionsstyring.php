@@ -13,43 +13,62 @@
                 "hvadv"
                 "hvorv"
                 "git"
-                "vbegreber";
+                "vbegreber"
+                "kilde"
+                "tiltop"
+                ;
                 }
 
         
 #versionsstyring{
     grid-area:versionsstyring;
-    background-color: antiquewhite;
+    border-bottom: solid #e589ba 1px;
+    
 }
 
 #hvorforv{
     grid-area: hvorforv;
-    background-color: antiquewhite;
+    
+    
 }
 
 #hvadv{
     grid-area: hvadv;
-    background-color: antiquewhite;
+    
  }
 
 #hvorv{
     grid-area: hvorv;
-    background-color: antiquewhite;
+    
 }
 
 #git{
     grid-area: git;
-    background-color: antiquewhite;
+    border-top: solid #e589ba 1px;
+    
     
 
 }
 
 #vbegreber{
     grid-area: vbegreber;
-    background-color: antiquewhite;
-    
-}
-        
+    border-top: solid #e589ba 1px;
+}        
+           
+#kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+           
+#tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+            }
+           
+
         
 @media screen and (min-width:500px){
     
@@ -63,7 +82,8 @@
         "hvadv hvadv"
         "hvorv hvorv"
         "vbegreber vbegreber"
-        "git git";
+        "git git"
+        "kilde tiltop";
        
     }        
         
@@ -74,12 +94,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "versionsstyring versionsstyring versionsstyring"
-        "hvorforv hvorforv hvorforv"
-        "hvadv hvadv hvadv"
-        "hvorv hvorv hvorv"
+        "hvorforv hvadv hvorv"
         "git git git"
         "vbegreber vbegreber vbegreber"
-        ;
+        "kilde tiltop tiltop";
         }
          
 </style>   
@@ -155,6 +173,18 @@
                         <dd>- når du henter ændringer og merger dem</dd>
                 </dl>
             </div>
+    
+            <div id="kilde">
+            
+            <h4> Kilder </h4> 
+            <h4> GitHub For Beginners - lauren orsini - Artikel </h4> 
+            <h4> Versionsstyring - Niels Østergaard - PP </h4>  
+            </div>
+    
+            <div id="tiltop">
+            <a href="http://idak0001.web.eadania.dk/Portfolio/versionsstyring.php"><img src="billeder/%20blomsttop.jpg"></a>
+            </div>
+        
     </div>
 
 

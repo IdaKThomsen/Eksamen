@@ -14,6 +14,8 @@
         "emb"
         "inli"
         "syntax"
+        "grids"
+        "responsiv"
         "kilde"
         "tiltop";
     }
@@ -53,6 +55,14 @@
     border-top: solid #e589ba 1px;
 }
     
+#grids{
+        grid-area: grids;
+    }
+    
+#responsiv{
+        grid-area: responsiv;
+    }
+    
 #kilde{
         grid-area: kilde;
         border: solid #e589ba 1px;
@@ -80,6 +90,7 @@
         "pei inli" 
         "emb emb"
         "syntax syntax"
+        "grids responsiv"
         "kilde tiltop";
         }
 }
@@ -95,6 +106,7 @@
         "cssinfo cssinfo cssinfo"
         "pei emb inli"
         "syntax syntax syntax"
+        "grids responsiv responsiv"
         "kilde kilde tiltop";
         }   
     }
@@ -160,12 +172,28 @@
             
             </div>
     
+    
+            <div id="grids">
+            <h2> Grid</h2>
+            <p>
+                Der har førhen været muligheder som float- posisioning og efterfølgende flexbox, disse muligheder har fungeret, men ikke uden komplikationer. Da CSS Grid blev opfundet i 2017, blev det meget nemmere at skabe et godt layout. Grids er bygget på ideen fra flexbox, men man har nu mulighed for at arbejde i 2 retninger i stedet for 1 retning, altså det giver nu mulighed for at man nu både kan arbejde hoisontalt og vertikalt , hvor man med flexbox kun havde mulighed for at arbejde hoisontalt. I Flexbox er det at placere 2 billeder ved siden af hinanden, billeder skal også helst være samme størrelse, ellers kan det være med at ødelægge det tiltænkte layout. Med Grid har man nu mulighed for at placere elementer præcis hvor man vil. 
+            </p>
+            </div>
+            
+            <div id="responsiv">
+            <h2> Responsivt design</h2>
+            <p>
+                Når man skaber en hjemmeside, er det vigtigt at man fokuserer på at den skal passe til flere enheder, da de har forskellige skærmstørrelser. Når der er tale om responsivt layout er det vigtigt at have tankegangen "mobile First", derefter tablet og til sidst webside. Grunden til at man tænker mobile First er fordi der er flere som tilgår hjemmesider via mobilen, og derfor er de vigtigt at den er tilpasset ens burgerer først. Det er også vigtigt at overveje ens design alt efter hvilken enhed man befinder sig på. For at få ens side responsiv skal man tilføje breakpoints i sit css, dette kan varierer alt efter hvilken skærmstørrelse der bliver brugt mest.     
+            </p>
+            </div>
+    
+    
             <div id="kilde">
 
                 <h4> kilder </h4> 
                 <h4> Intro til css - Niels Østergaard - PP</h4> 
-                <h4> </h4>  
-                <h4>  </h4>
+                <h4> grids - Niels Østergaard - PP </h4>  
+                <h4> Responsiv i praksis - Niels Østergaard - PDF </h4>
             </div>
     
             <div id="tiltop">

@@ -10,28 +10,44 @@
         "informationsarkitektur"
         "info"
         "saulw"
-        "lego";
+        "lego"
+        "kilde"
+        "tiltop";
         }
     
 #informationsarkitektur{
     grid-area: informationsarkitektur;
-    background-color: plum;
+    border-bottom: solid #e589ba 1px;
+
+    
 }
 
 #info{
     grid-area: info;
-    background-color: plum;
+    
 }
 
 #saulw{
     grid-area: saulw;
-    background-color: plum;
+    
 }
 
 #lego{
     grid-area: lego;
-    background-color: plum;
+    border-top: solid #e589ba 1px;
 } 
+    
+#tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+            }
+#kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
 
 
 @media screen and (min-width:500px){
@@ -44,9 +60,15 @@
         "informationsarkitektur informationsarkitektur"
         "info info"
         "saulw saulw"
-        "lego lego";
+        "lego lego"
+        "kilde tiltop";
         }
     
+#lego{
+    grid-area: lego;
+    border-top: solid #e589ba 1px;
+    
+
 }
     
 @media screen and (min-width:900px){
@@ -57,10 +79,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "informationsarkitektur informationsarkitektur informationsarkitektur"
-        "info info info"
-        "saulw saulw saulw"
-        "lego lego lego";
+        "info saulw lego"
+        "kilde tiltop tiltop";
         }
+    
+#lego{
+    grid-area: lego;
+    border-style: none;
+    
+
 }
     
 </style>
@@ -98,6 +125,7 @@
                     <dt>Alphabet - Alfabetisk </dt>
                     <dd>- Ordbog</dd>
                     <dt>Time- Tid</dt>
+                    <dd>- Tidslinje</dd>
                     <dt>Category - kategori <dt>
                     <dd>- Farver</dd>
                     <dt>Hierarchy -Hierarki<dt>
@@ -113,6 +141,17 @@
                 Alle måderne som blev brugt var rigtige, men man kan tale om hvilken giver mest brugervenlig tilgang.
                 Det handler nemlig om at gøre det let for sig selv og brugerne. 
                 </p>
+            </div>
+    
+              <div id="kilde">
+            
+                <h4> Kilder </h4> 
+                <h4> Informationsarkitektur - Niels Østergaard - PDF </h4> 
+                
+            </div>
+    
+            <div id="tiltop">
+                <a href="http://idak0001.web.eadania.dk/Portfolio/informationsarkitektur.php"><img src="billeder/%20blomsttop.jpg"></a>
             </div>
     
     </div> <!-- pagewrap slut -->

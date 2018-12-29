@@ -36,7 +36,7 @@
         
         <div id="kilde">
             
-            <h4> kilder </h4> 
+            <h4> Kilder </h4> 
             <h4> History of the Internet - Melih Bilgil - Video.</h4> 
             <h4> Navigating Knowledge - Video </h4>  
             <h4> Tim Berners-Lee - The World Wide Web - Video </h4>

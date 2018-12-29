@@ -19,66 +19,71 @@
         "generelimk"
         "sparadigme"
         "lbillede"
-        "lmodel";
+        "lmodel"
+        "kilde"
+        "tiltop";
 }
 
 
 #kommunikation{
     grid-area: kommunikation;
-    background-color: aqua;
+    
 }
 
 #hvaderk{
     grid-area: hvaderk;
-    background-color: pink;
+    border-bottom: solid #e589ba 1px;
+    border-top: solid #e589ba 1px;
+    
 }
 
 #tretyper{
     grid-area: tretyper;
-    background-color: antiquewhite;
+    
 }
 
 #kongurentogin{
     grid-area: kongurentogin;
-    background-color: azure;
+    
 }
 
 #synkronogasynkron{
     grid-area: synkronogasynkron;
-    background-color: beige;
+    
 }
 
 #grundantagelser{
     grid-area: grundantagelser;
-    background-color: aliceblue;
+    border-top: solid #e589ba 1px;
+    border-bottom: solid #e589ba 1px;
 }
 
 #hparadigme{
     grid-area: hparadigme;
-    background-color: aquamarine;
 }
 
 #imkmodellen{
     grid-area: imkmodellen;
-    background-color: mediumvioletred;
+    
 }
 
 #imkbillede{
     grid-area: imkbillede;
-    background-color: aliceblue;
     max-width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
+    
 
 #generelimk{
     grid-area: generelimk;
-    background-color: orchid;
+    
 }
 
 #sparadigme{
     grid-area: sparadigme;
-    background-color: beige;
+    border-top: solid #e589ba 1px;
+
+    
 }
 
 #lbillede{
@@ -89,8 +94,20 @@
 
 #lmodel{
     grid-area: lmodel;
-    background-color: skyblue;
 }
+    
+ #kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+#tiltop{
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
+            }
 
 @media screen and (min-width:500px){
     
@@ -100,16 +117,18 @@
     grid-auto-columns: 2fr;
     grid-template-areas:
         "kommunikation kommunikation"
-        "hvaderk tretyper"
+        "hvaderk hvaderk"
+        "tretyper tretyper"
         "kongurentogin synkronogasynkron"
         "grundantagelser grundantagelser"
         "hparadigme hparadigme"
         "imkmodellen imkmodellen"
-        "imkbillede imkbillede"
         "generelimk generelimk"
+        "imkbillede imkbillede"
         "sparadigme sparadigme"
         "lbillede lbillede"
-        "lmodel lmodel";
+        "lmodel lmodel"
+        "kilde tiltop";
     
     }
       
@@ -118,18 +137,18 @@
     #pagewrap{
     display: grid;
     grid-gap: 0px;
-    grid-auto-columns: 4fr;
+    grid-auto-columns: 3fr;
     grid-template-areas:
-        "kommunikation kommunikation kommunikation kommunikation"
-        "hvaderk hvaderk tretyper tretyper"
-        "kongurentogin kongurentogin synkronogasynkron synkronogasynkron"
-        "grundantagelser grundantagelser grundantagelser grundantagelser"
-        "hparadigme hparadigme hparadigme hparadigme"
-        "imkmodellen imkmodellen imkmodellen imkmodellen"
-        "imkbillede imkbillede imkbillede imkbillede "
-        "generelimk generelimk generelimk generelimk"
-        "sparadigme sparadigme sparadigme sparadigme"
-        "lmodel lmodel lbillede lbillede";
+        "kommunikation kommunikation kommunikation"
+        "hvaderk hvaderk hvaderk"
+        "tretyper kongurentogin synkronogasynkron"
+        "grundantagelser grundantagelser grundantagelser"
+        "hparadigme hparadigme hparadigme"
+        "imkmodellen imkmodellen imkmodellen"
+        "generelimk generelimk imkbillede"
+        "sparadigme sparadigme sparadigme "
+        "lmodel lmodel lbillede"
+        "kilde tiltop tiltop";
      }
     
     
@@ -149,7 +168,7 @@
     <div id="pagewrap">
         
         <div id="kommunikation">
-        <h1> kommunikation</h1>
+        <h1> Kommunikation</h1>
         </div>
         
         <div id="hvaderk">
@@ -318,7 +337,7 @@
         </div>
             
         <div id="imkbillede">
-        <img src="Portfolio/billeder/imkmodellen1.jpg">
+        <img id="imkbil" src="billeder/imkmodellen1.jpg">
         </div>    
             
         <div id="generelimk">
@@ -433,7 +452,21 @@
         <dt>- Med hvilken effekt?</dt>
         </dl>
            
-        </div>    
+        </div>  
+        
+        
+        <div id="tiltop">
+            <a href="http://idak0001.web.eadania.dk/Portfolio/kommunikation.php"><img src="billeder/%20blomsttop.jpg"></a>
+        </div>
+        
+        <div id="kilde">
+            
+            <h4> kilder </h4> 
+            <h4> Kommunikation i multimediedesign - Kap 5 - Grundlæggende kommunikationsteori s. 67-82 </h4>
+            
+        </div>
+        
+        
         
             
         </div> <!-- pagewrap slut --> 
