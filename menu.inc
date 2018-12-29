@@ -45,7 +45,7 @@
               
                 <a class="dropdown-item" href="brugertest.php">Brugertest</a>
               
-                <a class="dropdown-item" href="#">Business Model Canvas</a>    
+                <a class="dropdown-item" href="businessmodelcanvas.php">Business Model Canvas</a>    
             </div>
         </li>
             

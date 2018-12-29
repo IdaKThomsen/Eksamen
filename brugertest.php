@@ -21,10 +21,12 @@
     
     #Brugert{
         grid-area: Brugert;
+        border-bottom: solid #e589ba 1px;
     }
     
     #viden{
         grid-area: viden;
+        border-bottom: solid #e589ba 1px;
     }
     
     #posit{
@@ -37,6 +39,7 @@
     
     #Metodiskeo{
         grid-area: Metodiskeo;
+        border-top: solid #e589ba 1px;
     }
     
     #Kvantitativ{
@@ -117,7 +120,7 @@
     
     <div id="pagewrap">
         
-         <div id="Brugert">
+        <div id="Brugert">
         <h1>Brugertest</h1>
         </div>
         
@@ -206,7 +209,7 @@
         </div>
         
         <div id="tiltop">
-        <a href="http://idak0001.web.eadania.dk/Portfolio/Digitalemedierogplatforme.php"><img src="billeder/%20blomsttop.jpg"></a>
+        <a href="http://idak0001.web.eadania.dk/Portfolio/brugertest.php"><img src="billeder/%20blomsttop.jpg"></a>
         </div>
     
       
