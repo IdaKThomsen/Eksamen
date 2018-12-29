@@ -52,7 +52,7 @@
         
         husk at sætte i grid! 
       
-    </div>  
+    </div> <!--> ---------- pagewrap slutter --------------- </-->  
     
       
         

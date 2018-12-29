@@ -54,7 +54,7 @@
               Design
             </a>
             <div id="dtekst" class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Photoshop</a>
+              <a class="dropdown-item" href="photoshop.php">Photoshop</a>
                  
               <a class="dropdown-item" href="#">Illustrator</a>
               
