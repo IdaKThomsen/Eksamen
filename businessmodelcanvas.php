@@ -14,8 +14,104 @@
                 "salg"
                 "oekonomisk"
                 "forretning"
-                "arke";
+                "arke"
+                "ryanair"
+                "kilde"
+                "tiltop";
+            }
+    
+    #bmc{
+        grid-area: bmc;
+        border-bottom: solid #e589ba 1px;
+    }
 
+    #forståelse{
+        grid-area: forståelse;
+    }
+    
+    #de9byggesten{
+        grid-area: de9byggesten;
+        border-bottom: solid #e589ba 1px;
+    }
+    
+    #Organisation{
+        grid-area: Organisation;
+    }
+    
+    #produkt{
+        grid-area: produkt;
+    }
+    
+    #salg{
+        grid-area: salg;
+    }
+    
+    #oekonomisk{
+        grid-area: oekonomisk;
+    }
+    
+    #forretning{
+        grid-area: forretning;
+        border-top: solid #e589ba 1px;
+    }
+    
+    #arke{
+        grid-area: arke;
+    }
+    
+    #ryanair{
+        grid-area: ryanair;
+    }
+    
+    #kilde{
+        grid-area: kilde;
+        border: solid #e589ba 1px;
+        margin: 10px;
+        }
+    
+    #tiltop{
+            grid-area: tiltop;
+            max-height: 100%;
+            text-align: right;
+            padding: 20px;
+            }
+    
+    
+@media screen and (min-width:500px){
+        #pagewrap{
+                display: grid;
+                grid-gap: 0px;
+                grid-auto-columns: 1fr;
+                grid-template-areas:
+                    "bmc bmc"
+                    "forståelse forståelse"
+                    "de9byggesten de9byggesten"
+                    "Organisation produkt"
+                    "salg oekonomisk"
+                    "forretning forretning"
+                    "arke arke"
+                    "ryanair ryanair"
+                    "kilde tiltop";
+                }
+    
+    }
+    
+@media screen and (min-width:900px){ 
+        #pagewrap{
+                display: grid;
+                grid-gap: 0px;
+                grid-auto-columns: 1fr 1fr 1fr;
+                grid-template-areas:
+                    "bmc bmc bmc"
+                    "forståelse forståelse forståelse"
+                    "de9byggesten de9byggesten de9byggesten"
+                    "Organisation produkt salg"
+                    "oekonomisk oekonomisk oekonomisk"
+                    "forretning forretning forretning"
+                    "arke arke ryanair"
+                    "kilde tiltop tiltop";
+                }
+    }
 
 </style>
 
@@ -46,7 +142,7 @@
         </div>
       
         <div id="de9byggesten">
-        <h2>  De 9 byggesten </h2>
+        <h1>  De 9 byggesten </h1>
         </div>
         
         <div id="Organisation">
@@ -115,28 +211,73 @@
         
         <div id="arke">
         <h2> Forretningstyper/arketyper </h2>
-         <p> 
-             For at få forretnings forståelse er det vigtigt  at lære sig selv at kende som virksomhed. 
-             Man kan eksempelvis starte med at finde ud af hvilken type virksomhed man er
-        </p>
+        
         <dl>
-            <dt>Produktionsvirksomhed </dt>
-            <dt>Handelsvirksomhed</dt>
-            <dt>Servicevirksomhed </dt>
+            <dt>Den digitale købmand</dt>
+	           <dd>
+                Har sin fysiske butik men supplerer med     salg via Internettet
+                - Branding, annoncering, varekataloger, service- og vejledninger på nettet
+                </dd>
+            <dt>Webshoppen</dt>
+                <dd>
+                Køber hos grosister og sælger direkte til forbrugere via internettet.
+                - Undgår fordyrende fysisk detailbutik omkostninger og har samtidigt større varesortiment
+                </dd>
+            <dt>Den digitale producent</dt>
+	           <dd>
+                Udvider sine fysiske produkter med digitale tjenester bl.a. med IOT (Internet Of Things)
+                - Skaber nye funktionaliteter samt digitale lock-in effekter om det fysiske produkt
+                </dd>
+            <dt>Software producenten</dt>
+                <dd>
+                Bygger software med licens/direkte betaling
+                - Marginalomkostninger grænsende til nul, skalerbarhed og udrulning/opdatering via internet
+                </dd>
+            <dt>Den digitale platformsbygger</dt>
+                <dd>
+                Bygger sin egen digitale platform på internettet
+                - Skalering af antal bruger og brugen kilden til indirekte salg
+                </dd>
+            <dt>App opfinderen</dt>
+                <dd>
+                Ser et behov og bygger en app som dækker behovet
+                - Ekstremt lave start-up og exit costs
+                </dd>
+            <dt>Wiki-skaberen</dt>
+	           <dd>
+                Brugerne er både skabere samt forbrugere af indholdet
+                - Indtjening sker gennem donationer og eller indirekte salg
+                </dd>  
         </dl>     
         <p>
-            Når man har fastlagt hvilke virksomhedstype man er, kan man gå vider med spørgsmål som disse: 
-            Hvem er virksomheden skabt for, hvem er virksomheden osv. 
-            På den måde kan man syre sig ind på hvad ens vision, mål og værdier er. 
+            Grunden til at det er en god ide at anvende en forretningsmodel, er at man finder ud af hvilke kunder man har, hvad værdier virksomheden kan tilbyde kunderne 
+            <br>
+            "Forretningsmodellen kortlægger hvilke aktiviteter, ressourcer og samarbejdspartnere der er behov for, for at kunne tilføre kunden værdi, og hvilke udgifter og indtægter der er forbundet hermed – kort sagt, hvordan virksomheden tjener penge."
         </p>    
         </div>
         
+        <div id="ryanair"> 
+        <h2> Øvelse - Ryanair</h2>
+        <p> 
+            På klassen arbejde vi med business model Canvas.
+            Vi fik firmaet RyanAir som vi skulle tage udgangspunkt i. Her fik vi sat alle segmenterne i spil
+        </p>
         
+        <dl> 
+            <dt>Nøglepartnere: Lufthavne </dt>   
+            <dt>Nøgleaktiviteter: Flere dagsrejser </dt>  
+            <dt>Nøgleressourcer: Fly, aktier  </dt>  
+            <dt>Værdifaktorer:  billige flybilletter direkte fly i Europa</dt> 
+            <dt>Kunderelationer: Selvbetjening, automatiseret service  </dt>  
+            <dt>Kunder: Folk der gerne vil rejse billigt,  </dt>  
+            <dt>Kanaler: Rejsesøgemaskiner, egen hjemmeside, rejse bureau</dt> 
+            <dt>Omkostninger: lønninger, benzin, marketing,  </dt>  
+            <dt>Indtægtsstrømme: Kundeservice, tilkøb af plads, mad mm.  </dt> 
+        </dl>
         
-    
-      
+        <img src="billeder/ryanair.jpg">
         
-        
+        </div>
         
         <div id="kilde">
             
@@ -145,9 +286,12 @@
             <h4> Business model generation - s. 20-62 - Bog </h4>  
         </div>
         
-    </div>  
+        <div id="tiltop">
+            <a href="http://idak0001.web.eadania.dk/Portfolio/businessmodelcanvas.php"><img src="billeder/%20blomsttop.jpg"></a>
+        </div>
+        
+    </div>  <!-- pagewrap slutter ---------------------------------------- -->
     
-      
         
 <!-- her slutter sidensindhold ************** --> 
         
