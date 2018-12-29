@@ -37,10 +37,10 @@
         }
     
 #tiltop{
-            grid-area: tiltop;
-            max-height: 100%;
-            text-align: right;
-            padding: 20px;
+        grid-area: tiltop;
+        max-height: 100%;
+        text-align: right;
+        padding: 20px;
             }
     
     

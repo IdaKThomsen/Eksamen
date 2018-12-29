@@ -60,7 +60,7 @@
               
               <a class="dropdown-item" href="fotografering.php">Fotografering</a>
                
-                <a class="dropdown-item" href="#">Farver</a>
+                <a class="dropdown-item" href="farver.php">Farver/Typografi</a>
             
                 <a class="dropdown-item" href="#">Gestaltlove</a>   
             </div>
