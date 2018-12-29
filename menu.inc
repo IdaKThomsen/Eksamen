@@ -56,9 +56,9 @@
             <div id="dtekst" class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="photoshop.php">Photoshop</a>
                  
-              <a class="dropdown-item" href="#">Illustrator</a>
+              <a class="dropdown-item" href="illustrator.php">Illustrator</a>
               
-              <a class="dropdown-item" href="#">Fotografering</a>
+              <a class="dropdown-item" href="fotografering.php">Fotografering</a>
                
                 <a class="dropdown-item" href="#">Farver</a>
             

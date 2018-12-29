@@ -1,5 +1,25 @@
 
    <?php include "head.inc"; ?>   
+<style>
+        #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            ""
+            ;
+
+    }
+    
+@media screen and (min-width:500px){
+    
+@media screen and (min-width:900px){
+    
+    
+    
+    
+</style>
+
 
   </head>
 
@@ -52,7 +72,7 @@
         
         husk at sætte i grid! 
       
-    </div> <!--> ---------- pagewrap slutter --------------- </-->  
+    </div> <!--  ---------- pagewrap slutter --------------- !-->  
     
       
         
