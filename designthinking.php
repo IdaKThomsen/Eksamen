@@ -25,6 +25,7 @@
     
     #designtp{
         grid-area: designtp;
+        border-bottom: solid #e589ba 1px;
     }
     
     #hvaderdt{
@@ -37,6 +38,8 @@
     
     #de5fase{
         grid-area: de5fase;
+        border-top: solid #e589ba 1px;
+        padding: 10px;
     }
     
     #emperz{
@@ -61,16 +64,20 @@
     
     #video{
         grid-area: video;
+        border-top: solid #e589ba 1px;
+        padding: 10px;
     }
     
     #video1{
         grid-area: video1;
         text-align: center;
+        padding: 10px;
     }
     
     #video2{
         grid-area: video2;
         text-align: center;
+        padding: 10px;
     }
     
     
