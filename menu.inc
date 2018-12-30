@@ -74,9 +74,7 @@
             <div id="ptekst" class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="onepage.php">Onepage</a>
                  
-              <a class="dropdown-item" href="#">Designthinking</a>
-              
-              <a class="dropdown-item" href="#">Første hjemmeside</a>
+              <a class="dropdown-item" href="designthinking.php">Designthinking</a>
                 
                 <a class="dropdown-item" href="#">Workshop - Css/Html</a>  
             </div>

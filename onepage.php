@@ -16,17 +16,18 @@
             "produktionsfasen"
             "reflektion"
             "semper"
-            "kilde"
             "tiltop"
             ;
 
     }
     
     #onepage{
-        grid-area:onepage; 
+        grid-area:onepage;
+        border-bottom: solid #e589ba 1px;
     }
     #starten{
-        grid-area:starten; 
+        grid-area:starten;
+        border-bottom: solid #e589ba 1px;
     }
     #reasearch{
         grid-area:reasearch; 
@@ -59,14 +60,9 @@
     
      #semper{
         grid-area: semper;
+        border-top: solid #e589ba 1px;
         
     }
-    
-    #kilde{
-        grid-area: kilde;
-        border: solid #e589ba 1px;
-        margin: 10px;
-        }
     
     #tiltop{
             grid-area: tiltop;
@@ -82,11 +78,45 @@
     
     
 @media screen and (min-width:500px){
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            "onepage onepage"
+            "starten starten"
+            "reasearch reasearch"
+            "empert userstories"
+            "fulist heri"
+            "designfas designfas" 
+            "produktionsfasen reflektion"
+            "semper semper"
+            "tiltop tiltop"
+            ;
+        }  
+    
+}
     
 @media screen and (min-width:900px){
-    
-    
-    
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            "onepage onepage onepage"
+            "starten starten starten"
+            "reasearch reasearch reasearch"
+            "empert empert empert"
+            "userstories fulist heri" 
+            "designfas designfas designfas"
+            "produktionsfasen reflektion reflektion"
+            "semper semper semper"
+            "tiltop tiltop tiltop"
+            ;
+
+    }
+
+}
     
 </style>
 
@@ -180,12 +210,13 @@
             </p>
             <p>
 
-                Vi havde valgt en typografi, som passede godt til vores design, men den fejl vi lavede var at vi ikke brugte det igennem hele vores design - hvilket har været en god lærestreg at tage med sig. 
+                Vi havde valgt en typografi, som passede godt til vores design og gennerelle tema, men vi lavede den fejl at vi ikke brugte det igennem hele vores design, vi glemte det simpelthen. Det har været en god lærestreg, fordi nu er jeg meget opmærksom på om mine ting har de rigtige fonte og om det bliver vist rigtigt i forkelige browsere.  
             </p>
             <p>
                 Vi udarbejdede wireframes til 3 størrelser skærme.
                 Dette var en lang proces, da designet ikke er det samme hele vejen igennem. 
-                Vi startede med at arbejde på wireframen til mobilversionen, og kom frem til hvordan den skulle fremstå, derefter tablet og til sidst til en stor skærm.     
+                Vi startede med at arbejde på wireframen til mobilversionen, og kom frem til hvordan den skulle fremstå, derefter tablet og til sidst til en stor skærm.
+                Det var en stor hjælp at få de tanker vi havde skrevt ned på et papir, så vi begge vidste hvor vi genre ville hen. 
             </p>
             </div>   
             
@@ -199,21 +230,18 @@
             <div id="reflektion">
             <h2>Refleksion</h2>
             <p> 
-                Igennem hele processen har jeg ofte kunne mærke at det har været udfordrende, da jeg ofte overvurderer mine evner ift. kodnings delen, så tingene bliver ikke helt som man ønsker. Da vi skulle til at comitte siden til github, opdager vi hvor stor siden er, pga de billeder vi har lagt på siden, vi når desværre ikke at rette i det, hvilket resulterer i at siden loader meget langsomt. Men alle disse udfordringer har ledt til meget mere forståelse og viden inden for kodning og faserne.
+                Igennem hele processen kunne jeg mærke at det var mere udfordrende end jeg havde forventet. Jeg har ofte ideer til hvordan tingene skal se ud, inde i mit hoved men jeg overvurderer noglegange mine evner ift. kodnings. Så det kan godt komme til at ende uf i at tingene ikke helt bliversom man ønsker.
+                <br>
+                Da vi skulle til at comitte siden til github, opdager vi hvor stor siden er, pga de billeder vi har lagt på siden. Vi når desværre ikke at rette i det, hvilket resulterer i at siden loader meget langsomt. Men alle disse udfordringer har ledt til meget mere forståelse og viden inden for kodning og faserne.
+                
             </p>
             </div>
 
         <div id="semper">
+        <p> Her er vores færdige side </p>    
         <iframe src="http://idak0001.web.eadania.dk/Onepage/"></iframe>
         </div>        
         
-        <div id="kilde">
-            
-            <h4> Kilder </h4> 
-            <h4> History of the Internet - Melih Bilgil - Video.</h4> 
-            <h4> Navigating Knowledge - Video </h4>  
-            <h4> Tim Berners-Lee - The World Wide Web - Video </h4>
-        </div>
       
         <div id="tiltop">
              <a  href="http://idak0001.web.eadania.dk/Portfolio/index.php"><img src="billeder/%20blomsttop.jpg"></a> 
