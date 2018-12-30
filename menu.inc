@@ -72,7 +72,7 @@
               Projekter
              </a>
             <div id="ptekst" class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Onepage</a>
+              <a class="dropdown-item" href="onepage.php">Onepage</a>
                  
               <a class="dropdown-item" href="#">Designthinking</a>
               

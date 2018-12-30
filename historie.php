@@ -96,7 +96,8 @@
             <p> 
                 Kilde video 
                 I det 20 århundrede havde man så meget information, at det skabte furstation for folk, man vidste ikke hvordan man kunne strukturere eller bevare alt denne information på den smarteste måde, Det skete et informations overload, der var for meget information til at man kunne håndtere det. Dette overload resulterede i at man skabte stedet " world place of knowlegde" 
-                Her sørgede man for at der ikke var flere af samme dokument, billede mm. Ydermere fokuserede de også på at få linkede flere ting sammen hvis der var en sammenhæng </p>
+                Her sørgede man for at der ikke var flere af samme dokument, billede mm. Ydermere fokuserede de også på at få linkede flere ting sammen hvis der var en sammenhæng     
+            </p>
             </div>
             
             <div id="internettet">

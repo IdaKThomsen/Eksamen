@@ -24,10 +24,12 @@
     
     #gestalt{
         grid-area: gestalt;
+        border-bottom: solid #e589ba 1px;
     }
     
     #perception{
         grid-area: perception;
+        border-bottom: solid #e589ba 1px;
     }
     
     #narhed{
