@@ -62,7 +62,7 @@
                
                 <a class="dropdown-item" href="farver.php">Farver/Typografi</a>
             
-                <a class="dropdown-item" href="#">Gestaltlove</a>   
+                <a class="dropdown-item" href="gestaltlovene.php">Gestaltlove</a>   
             </div>
           </li>
             
