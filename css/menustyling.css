@@ -3,18 +3,18 @@
 }
 
 #brand{
-    font-family: "comfortaa";
+    font-family: 'Comfortaa', cursive;
     color: #fff;
     font-size: 30px;
 }
 
 #web, #kom, #design, #pro{
-    font-family: "comfortaa";
+    font-family: 'Comfortaa', cursive;
     
 }
 
 #webtext, #ktekst, #dtekst, #ptekst{
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     background-color:#e589ba; 
 }

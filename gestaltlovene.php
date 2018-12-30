@@ -13,7 +13,11 @@
             "simp"
             "whitesp"
             "ruleof3"
-            "figure";
+            "figure"
+            "common"
+            "closure"
+            "kilde"
+            "tiltop";
 
     }
     
@@ -54,10 +58,13 @@
         grid-area: figure;
     }
     
-    #{
-        grid-area: ;
+    #common{
+        grid-area: common;
     }
     
+    #closure{
+        grid-area: closure;
+    }
     
     #tiltop{
             grid-area: tiltop;
@@ -73,10 +80,43 @@
         }
     
 @media screen and (min-width:500px){
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            "gestalt gestalt"
+            "perception perception"
+            "narhed konten"
+            "lighed simp"
+            "whitesp ruleof3"
+            "figure common"
+            "closure closure"
+            "kilde tiltop";
+
+    }
+    
+    
+    
+}
     
 @media screen and (min-width:900px){
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            "gestalt gestalt gestalt"
+            "perception perception perception"
+            "konten narhed lighed"
+            "simp whitesp ruleof3"
+            "figure common closure"
+            "kilde tiltop tiltop";
+
+    }
     
     
+}
     
     
 </style>
@@ -171,16 +211,22 @@
             <img src="billeder/figureground.jpg">
             </p>
             </div>
-        
             
-        
-        
-        
-        
-        
-        
-    
-        
+            <div id="common">
+            <h2> Common fate </h2>
+            <p> 
+               Når der er tale om common fate, så menes der at vi ser elementer der bevæger sig i samme retning eller i samme hastighed. Billedet jeg har valgt har en gruppe med fugle på, når man kigger på dem, vil man automatisk tænke at de høre sammen.  
+            </p>
+            <img src="billeder/commonfate.jpg">
+            </div>
+            
+            <div id="closure">
+            <h2> Closure  </h2>
+            <p> 
+               Når der er tale om common fate, så menes der at vi ser elementer der bevæger sig i samme retning eller i samme hastighed. Billedet jeg har valgt har en gruppe med fugle på, når man kigger på dem, vil man automatisk tænke at de høre sammen.  
+            </p>
+            <img src="billeder/closure.png">
+            </div>
     
         
         <div id="kilde">
