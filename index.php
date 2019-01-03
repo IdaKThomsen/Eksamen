@@ -146,17 +146,23 @@
         <h1>Portfolio</h1>
         <p> Arbejdsproces:</p>
 
-        <p>Content:</p>
+        <p>Indhold:</p>
         <p>
-            Vi var en gruppe på omkring 5 som aftalte at lave en studiegruppe, hvor vi kunne hjælpe hinanden med notater til de forskellige emner. Vi startede allerede i denne gruppe omkring en halvanden uge inden vi officielt fik opgaven.  Det har været en stor hjælp at sidde sammen og dele de forskellige noter /viden vi hver især havde, på den måde har jeg fået gennemgået stoffet  igen, hvilket har givet en bedre forståelse i sidste ende. Vi snakkede i fællesskab om hvad vi ville have med på siden, og hvordan det skulle stilles op
+            Vi var en gruppe på omkring 5 som aftalte at lave en studiegruppe, hvor vi kunne hjælpe hinanden med notater til de forskellige emner. Vi startede allerede i denne gruppe omkring en halvanden uge inden vi officielt fik opgaven.  Det har været en stor hjælp at sidde sammen og dele de forskellige noter /viden vi hver især havde, på den måde har jeg fået gennemgået stoffet  igen, hvilket har givet en bedre forståelse i sidste ende. Vi snakkede i fællesskab om hvad vi ville have med på siden, og hvordan det skulle stilles op.
+
         </p>
         <p>Kodning:</p> 
         <p>
-            Da alt min tekst til de forskellige emner var sammenfattet, begyndte den del som jeg havde frygtet mest. Jeg har ikke prøvet at kode før jeg startede her, så ofte løber ens fantasi af med en, hvilket er lidt dumt når ens færdigheder ikke er til det. 
-            Jeg startede med at lave wireframes for at skabe en ide omkring hvordan jeg ønskede mit design skulle se ud. Både over navigationen og hver af de andre sider.  
+            Da alt min tekst til de forskellige emner var sammenfattet, begyndte den del som jeg havde frygtet mest. Jeg har ikke prøvet at kode før jeg startede her, så ofte løber ens fantasi af med en, hvilket er lidt dumt når ens færdigheder ikke er til det. Jeg startede med at lave wireframes for at skabe en ide omkring hvordan jeg ønskede mit design skulle se ud. Både over navigationen og hver af de andre sider. Jeg startede ud med at arbejde med Webudvikling, og efter at have færdiggjort det emne fandt jeg hurtigt ud af den smarteste måde for mig at arbejde med de andre emner på. Jeg lavede en skabelon som jeg kunne bruge hver gang jeg gik i gang med et nyt emne, det gjorde processen for mig lidt nemmere. 
         </p>
-        <p>Generelt: </p>
+        <p> Design </p>
+        <p> 
+            Hele designprocessen startede for mig, da jeg begyndte at lave wireframes. Jeg udarbejde først mobil versionen,  og der havde jeg en klar tanke om at den bare skulle være 1 kolonne, da jeg ellers syntes at det kan blive for småt, eller for presset. Da jeg kom til tablet versionen lavede jeg først en wireframe over at den skulle fylde 4 kolonner, fordi de 2 yderste skulle være "blanke", samme tanke havde jeg omkring web, Men jeg fandt hurtigt ud af at jeg bare ville lave hhv. tablet 2 kolonner og web 3. 
+            Jeg har valgt at lave det gennemgående tema i på min hjemmeside lyserødt, da det er en af mine absolutte yndlingsfarver, på den måde kommer der også lidt personlighed ind over, hvilket jeg også syntes er en god ide. 
 
+        </p>
+    
+        <p>Generelt: </p>
         <p>
             Jeg havde hele tiden i hovedet at det skulle være så simpelt som muligt, da jeg ikke "tør" at bevæge mig ud på alt for dybt vand, da jeg stadig er i en læringsproces hvor jeg gør mit bedste for at skabe en forståelse for det hele, hovedsageligt kodningsdelen. 
         </p>
