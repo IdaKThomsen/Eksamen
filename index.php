@@ -131,7 +131,7 @@
     <div id="pagewrap"> 
     
     <div id="billede">
-        <img id="ida" src="billeder/Ida4.jpg">
+        <img id="ida" src="billeder/Ida6.jpg">
     </div>
         
     <div id="hvorformultimediedesign">

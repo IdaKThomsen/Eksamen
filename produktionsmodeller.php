@@ -143,20 +143,44 @@
         <dt> 15. Hvordan skal produktet distribueres?</dt>
             <dd>  Når valget af dristrubutør er taget, skal man vælge den rette strategi som passer netop til den type. Det handeler om at skabe en forståelse, så man både kan holde økonomien nede, samtidig med at man gør det "lækkert" for modtageren. hvis man laver en flyer men information, nytter det ikke noget at det er kavet på avispapir, her ville det være en bedre oplevelse for kunden at det blev trykt på noget tykkere papir. </dd>
         <dt> 16. Hvilke genrer skal bruges?</dt>
-            <dd> </dd>
+            <dd> Det handler om at finde ud af hvordan man vil udtrykke sig. Man skal gøre det klart hvilken måde man vil kommunikere med sine kunder på. </dd>
         <dt> 17. Hvilke fortællemåder skal bruges?</dt>
+            <dd> 
+            Disse 4 tilgange bruges alt efter behovet.
+            4 tilgange til at fortælle sit budskab på:
+            <br>
+            Beskrivelse: opremsning af fakta
+            <br>
+            Argumentation: fremsæt påstande og kom frem til en sandsynlig pointe. 
+            <br>
+            fortælling: dramatiser et forløb
+            <br>     
+            Association: Gør de sammenhænge som ikke var åbenlyse synlige for kunden
+            </dd>
         <dt> 18. Hvilke færdigheder skal producenten have?</dt>
+            <dd> Man skal overveje om man har kopetancerne til at klare den opgave man begiver sig ud i, så man ikke ender med et negativt resultat</dd>
         <dt> 19. Hvilken viden skal producenten have?</dt>
+            <dd> Man skal gøre det klar med sig selv om man kan klare opgaven alene, eller om man skal have hjælp af andre.</dd>
         <dt> 20. Hvor meget skal der med?</dt>
+            <dd> Man skal finde ud af hvad der er væsenligt i forhold til det reasearch man har lavet, på den måde skal man få gjort således at kunderne kan skal en identifikation. </dd>
         <dt> 21. Hvilket apparatur er nødvendigt?</dt>
+            <dd> Man skal sørge for at både en slev og kunden har de apperater som skal bruges for at lave og forstå produktet. </dd>
         <dt> 22. Hvad må det koste?</dt>
+            <dd> Man skal finde ud af hvilket budget ens kunde har, og samtidig finde ud af hvad de forventer at få ud af det.  </dd>
         <dt> 23. Hvilke juridiske problemer er der også?</dt>
+            <dd> Man skal sikre sig at man igennem hele processen overholder de regler som ligger til inden for markedsføringsloven.</dd>
         <dt> 24. Hvilke etiske problemer kan der opstå?</dt>
+            <dd> Det er vigtigt at overveje om det man laver, kan komme til at støde nogle.</dd>
         <dt> 25. Hvad skal produktet hedde?</dt>
+            <dd>Find ud af hvad navnet på produktet skal . være, og gør det op med sig selv om man vil have et navn der beskriver produktet eller et navn der gør folk nysggerige.</dd>
         <dt> 26. Hvordan er tidsplanen?</dt>
+            <dd> Man skal sikre sig at man kan nå at lave projektet færdigt til tiden. hvis der ikke er en specifik deadline, så skal man skabe en for sig selv, så man har noget at gå ud fra.</dd>
         <dt> 27. Hvordan informeres rekvirenten?</dt>
+            <dd> Man skal aftale med sin kunde hvem der leverer hvad og hvornår.</dd>
         <dt> 28. Hvordan skal produktet afprøves?</dt>
+            <dd> Det er vigtigt at man tidlligt i processen overvejer hvornår man vil afprøve produktet. Ydermere er det en god ide at få andres øjne og tanker på hvordan det fungerer.</dd>
         <dt> 29. Hvordan laves produktet nemmest?</dt> 
+            <dd> Det er vigtigt at være realistisk, og overveje hvad det er man kan nå, med de kompetencer man har. </dd>
         </dl>
             
         </div>
