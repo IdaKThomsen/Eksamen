@@ -2,8 +2,6 @@ body{
     padding: 10px; 
 }
 
-}
-
 h1{
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
@@ -68,6 +66,11 @@ a:hover{
     color: #e589ba;
 }
 
+a:active{
+    text-decoration: underline;
+}
+
+
 @media screen and (min-width:500px){
     
 h1{
@@ -111,15 +114,15 @@ a:hover{
     color: #e589ba;
 }
     
-    
-}
 
+}
 
 @media screen and (min-width:900px){
 
     
 h1{
     font-size: 30px;
+    text-align: center; 
     
     }
 

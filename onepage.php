@@ -1,6 +1,6 @@
 <?php include "head.inc"; ?>   
 <style>
-        #pagewrap{
+    #pagewrap{
         display: grid;
         grid-gap: 0px;
         grid-auto-columns: 1fr;

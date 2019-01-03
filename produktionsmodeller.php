@@ -108,26 +108,42 @@
         <div id="deniogtyvespg">
         <h2> De 29 spørgsmål</h2>
         <p>
-            Denne model bygger på  lasswells formel, men er foldet mere ud, og har derfor 29 spørgsmål i stedet for 5. Den bruges altså til planlægge kommunikation.
+            Denne model bygger på  lasswells formel, men er foldet mere ud, og har derfor 29 spørgsmål i stedet for 5. Den bruges altså til planlægge kommunikation med sin kunde.
         </p> 
         
         <dl>
         <dt> 1. Hvem er målgruppen?</dt>
+            <dd> Hvilken gruppe mennekser er det vi gerne vil ramme? Hvad ved vi om dem? </dd>
         <dt> 2. Er kommunikation løsningen?</dt>
+            <dd> Overvej om målgruppen har brug for en multimedieløsning, eller om det faktisk er bedre med en anden slags løsning.</dd>
         <dt> 3. Hvad er budskabet?</dt>
+            <dd> For at finde ud af hvad budskabet skal være, er det vigtigt at man sætter sig ind i firmaet, så man får en forståelse for hvad de ønsker at udtrykke.</dd>
         <dt> 4. Hvad er mediet?</dt>
+            <dd> Overvej hvilket medie skal sende budskabet</dd>
         <dt> 5. Hvilken effekt skal produktet have hos målgruppen?</dt>
+            <dd> hvad følelser skal det bringe frem? provokernede, sørgelige, glade. det er vigtigt at man rammer rigtige så der ikke sker misforståelser.  </dd>
         <dt> 6. Hvad er formålet med effekten hos målgruppen?</dt>
+            <dd> Der kna være forskellige formål alt efter hvilken slags firma du er eller hvilken slags målgruppe du har.  Det kunne være at blive opdaget, salg, informere osv.  </dd>
         <dt> 7. Hvem er afsender?</dt>
+            <dd> hvem er den eller de personer som sender dette ud? </dd>
         <dt> 8. Indgår produktet i en strategi eller politik?</dt>
+            <dd> Hvis din kunde har en bestemt strategi ift. deres firma, vil det være en god ide at følge den, så firmaets kunder ikke bliver forvirret. </dd>
         <dt> 9. Hvilken effekt skal produktet have hos afsenderen?</dt>
+            <dd> Skabe en stærkere strategi, give mere viden inden for det område de befinder sig på. </dd>
         <dt> 10. Hvad er formålet med effekten hos afsenderen?</dt>
+            <dd> alt efter hvilken afdeling man er i, er det for det meste vækst man går efter. Dette skal ikke kun forståes som økonomisk vækst, det kan også være vækst ift. markedsføringsafdelingen </dd>
         <dt> 11. Hvordan påvirkes målgruppen ellers af lignende budskaber?</dt>
+            <dd> Man skal sætte sig ind i hvordan sin målgruppe bliver påvirket af andre, som kan have samme budskab som en selv. På den måde vil man have mulighed for at forbedre udfaldet. </dd>
         <dt> 12. Intimideres målgruppen?</dt>
+            <dd> Det handler om at skabe en forståelse for målgruppen, så de ikke føler sig "dårligt tilpas". </dd>
         <dt> 13. Er produktet lavet før?</dt>
+            <dd> Hvis produktet er lavet før, skal du finde ud af hvordan du kan sørge for at det ikke bare bliver en dirkete kopiering, men hvordan du har mulighed for at gøre det bedre.</dd>
         <dt> 14. Hvor, hvornår og hvordan skal målgruppen opleve produktet?</dt>
+            <dd> Man skla gøre det klart for sig selv og virksomheden, hvornår der er det perfekte tidspunkt at udgive produktet. Hvis der er tale om en ny chokolade julekalender, går det ikke at den bliver udgivet i Januar. </dd>
         <dt> 15. Hvordan skal produktet distribueres?</dt>
+            <dd>  Når valget af dristrubutør er taget, skal man vælge den rette strategi som passer netop til den type. Det handeler om at skabe en forståelse, så man både kan holde økonomien nede, samtidig med at man gør det "lækkert" for modtageren. hvis man laver en flyer men information, nytter det ikke noget at det er kavet på avispapir, her ville det være en bedre oplevelse for kunden at det blev trykt på noget tykkere papir. </dd>
         <dt> 16. Hvilke genrer skal bruges?</dt>
+            <dd> </dd>
         <dt> 17. Hvilke fortællemåder skal bruges?</dt>
         <dt> 18. Hvilke færdigheder skal producenten have?</dt>
         <dt> 19. Hvilken viden skal producenten have?</dt>

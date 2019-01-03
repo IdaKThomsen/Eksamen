@@ -246,7 +246,7 @@
         </div>
         
         <div id="tiltop">
-            <a href="http://idak0001.web.eadania.dk/Portfolio/index.php"><img src="billeder/%20blomsttop.jpg"></a>
+            <a href="http://idak0001.web.eadania.dk/Portfolio/designthinking.php"><img src="billeder/%20blomsttop.jpg"></a>
         </div>
         
         <div id="kilde">

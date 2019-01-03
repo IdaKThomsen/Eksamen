@@ -88,7 +88,7 @@
         <div id="pagewrap">
             
             <div id="historie">
-                <h1>Historie</h1> 
+                <h1> Historie </h1> 
             </div>
             
             <div id="worldplaceofknowledge">
@@ -128,13 +128,29 @@
                 På dette tidspunkt var der mange begrænsninger i HTML, man kunne eksempelvis ikke kontrollere hvilken størrelse ens skrift havde, det var browseren der bestemte hvilket udtryk siden kom ud med. Der var dog stadig nogle som blev nysgerrige på nette,t og begynde at bruge det selv. Folk begyndte at anvende Mosaic - browser udviklet af NCSA Mosaic i 1993, for at kunne få mere kontrol over hvordan deres side kom til at se ud i sidste ende.
                 </p>
                 <ul>Under konstruktion(1996-2000)</ul>
-                <p> skriv mere her </p>
+                <p> 
+                    Mange flere begyndte at bruge webbet til at skabe forretninger bla. var Amazon var en af de første webshops som fik en god start, med at sælge bøger. Men fordi at der var så mange som begyndte at udvikle hjemmesider så blev det svært for brugeren at finde ud af hvad der var bedst at bruge. 
+                    I takt med at flere begyndte at anvende webbet, så kom der også forskellige meninger omkring hvad der var vigtigt at fokusere på- David Siegel mente at det var vigtigt at fokusere på designet, hvor at Jakob Nielsen mente at man skulle tænke mere på brugervenlighed. 
+                    i 2002 var det år hvor Microsoft vandt browserkrigen over Netscape. Microsoft sad altså på 96 %. 
+                </p>
                 <ul>Semantisk søgning (2000-2003)</ul>
-                <p> skriv mere her </p>
+                <p> 
+                    Grundet det der blev kaldt "millenium bug" blev folk mere utrykke ved at bruge webbet, og derfor skete "dotcom krakket" hvilket resulterede i at mange mistede deres penge. 
+                    Imens alt dette stod på blev man introduceret til Google, som kunne erstatte alt hvad de tidlligere søgemaskiner ikke kunne klare.
+                    Google gjorde det nemmere for folk at blive opdaget, fordi google havde bedre mulighed for at dømme om siderne var gyldige, de arbejde nemlig med Semantik. 
+                    I forhold til at designe med CSS fik fok flere muligheder, men folk fik det samme sæt muligheder, så alle sider lignede stort set hinanden.
+                </p>
+                
                 <ul> Sociale web(2003-2010)</ul>
-                <p>skriv mere her </p>
+                <p>
+                    Nu er det brugerne som styre webbet. De har altså mulighed for at lave et forum til alle slags hobbyer, bla. startede siden "MySpace" som gjorde det muligt for folk at dele billeder, musik og meget andet, det gik dog lidt i stå da Facebook kom til. De sørgede for at folk kunne følge med i nyheder, sports begivenheder, ud over det kunne man nu dele videoer via youtube. Det var bla. også i denne periode at twitter kom til, det var også her at "#" blev en ting. Der blev skabt mange politiske begivenheder, som nu kunne ses af milioner af mennesker. 
+                </p>
                 <ul>Det mobile web(2010- nu)</ul>
-                <p>skriv mere her</p>    
+                <p>
+                    Man gik fra at alt forgik på en computerskærm, til at folk brugte deres smartphone, med toutch skærm. 
+                    Måden at bruge Webbet på ændrede sig, da man nu gik ind på Apps i stedet for browsere. 
+                    Dette fik også en indflydelse på hvordan måden at markedsføre sig på ændrede sig, for uanset hvor man bevægede sig hen så "følges" ens spor, så de kan vise  relateret indhold til det man lige har været inde på.
+                </p>    
         
             </div>
             
