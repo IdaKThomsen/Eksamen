@@ -17,7 +17,6 @@
         #produktionsmodeller{
             grid-area: produktionsmodeller;
             border-bottom: solid #e589ba 1px;
-
             }
         
         #deniogtyvespg{
@@ -30,7 +29,7 @@
             grid-area: nybollemodel;  
             }
         
-        nybmodel{
+        #nybmodel{
             grid-area: nybmodel;
         }
         
@@ -41,8 +40,8 @@
         }
         
         #kilde{
-        grid-area: kilde;
-        border: solid #e589ba 1px;
+            grid-area: kilde;
+            border: solid #e589ba 1px;
         margin: 10px;
         }
         

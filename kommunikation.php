@@ -480,12 +480,8 @@
             <h4> jyllands-posten.dk/international/usa/ECE9344436/se-de-fem-bedste-super-bowlreklamer - reklamefilm</h4>
             
     </div>
-        
-        
-        
             
 </div> <!-- pagewrap slut -------------------------------------------- --> 
         
 
 <?php include "foot.inc"; ?>
-
