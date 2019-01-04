@@ -155,9 +155,9 @@
 
         <body>
     
-<?php include "menu.inc"; ?>
+<?php include "menu.inc"; ?> 
     
-    
+ <!--   Sidensindhold starter her ---------------------------------- !-->   
       
 <div id="pagewrap">
         
@@ -484,7 +484,7 @@
         
         
             
-</div> <!-- pagewrap slut --> 
+</div> <!-- pagewrap slut -------------------------------------------- --> 
         
 
 <?php include "foot.inc"; ?>
