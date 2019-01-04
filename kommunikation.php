@@ -2,181 +2,170 @@
  
  
 <style>
-#pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-columns: 1fr;
-    grid-template-areas:
-        "kommunikation"
-        "hvaderk"
-        "tretyper"
-        "kongurentogin"
-        "synkronogasynkron"
-        "grundantagelser"
-        "hparadigme"
-        "imkmodellen"
-        "imkbillede"
-        "generelimk"
-        "sparadigme"
-        "lbillede"
-        "lmodel"
-        "mrclean"
-        "kilde"
-        "tiltop";
-}
-
-
-#kommunikation{
-    grid-area: kommunikation;
-    
-}
-
-#hvaderk{
-    grid-area: hvaderk;
-    border-bottom: solid #e589ba 1px;
-    border-top: solid #e589ba 1px;
-    
-}
-
-#tretyper{
-    grid-area: tretyper;
-    
-}
-
-#kongurentogin{
-    grid-area: kongurentogin;
-    
-}
-
-#synkronogasynkron{
-    grid-area: synkronogasynkron;
-    
-}
-
-#grundantagelser{
-    grid-area: grundantagelser;
-    border-top: solid #e589ba 1px;
-    border-bottom: solid #e589ba 1px;
-}
-
-#hparadigme{
-    grid-area: hparadigme;
-}
-
-#imkmodellen{
-    grid-area: imkmodellen;
-    
-}
-
-#imkbillede{
-    grid-area: imkbillede;
-    max-width: 100%;
-    height: auto; 
-}
-    
-
-#generelimk{
-    grid-area: generelimk;
-    
-}
-
-#sparadigme{
-    grid-area: sparadigme;
-    border-top: solid #e589ba 1px;
-
-    
-}
-
-#lbillede{
-    grid-area: lbillede;
-    max-width: 100%;
-    height: auto;
-}
-
-#lmodel{
-    grid-area: lmodel;
-}
-    
-#mrclean{
-    grid-area: mrclean;
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            "kommunikation"
+            "hvaderk"
+            "tretyper"
+            "kongurentogin"
+            "synkronogasynkron"
+            "grundantagelser"
+            "hparadigme"
+            "imkmodellen"
+            "imkbillede"
+            "generelimk"
+            "sparadigme"
+            "lbillede"
+            "lmodel"
+            "mrclean"
+            "kilde"
+            "tiltop";
     }
-    
- #kilde{
+
+
+    #kommunikation{
+        grid-area: kommunikation;
+    }
+
+    #hvaderk{
+        grid-area: hvaderk;
+        border-bottom: solid #e589ba 1px;
+        border-top: solid #e589ba 1px;
+    }
+
+    #tretyper{
+        grid-area: tretyper;
+    }
+
+    #kongurentogin{
+        grid-area: kongurentogin;
+    }
+
+    #synkronogasynkron{
+        grid-area: synkronogasynkron;
+    }
+
+    #grundantagelser{
+        grid-area: grundantagelser;
+        border-top: solid #e589ba 1px;
+        border-bottom: solid #e589ba 1px;
+    }
+
+    #hparadigme{
+        grid-area: hparadigme;
+    }
+
+    #imkmodellen{
+        grid-area: imkmodellen;
+
+    }
+
+    #imkbillede{
+        grid-area: imkbillede;
+        max-width: 100%;
+        height: auto; 
+    }
+
+
+    #generelimk{
+        grid-area: generelimk;
+
+    }
+
+    #sparadigme{
+        grid-area: sparadigme;
+        border-top: solid #e589ba 1px;
+    }
+
+    #lbillede{
+        grid-area: lbillede;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #lmodel{
+        grid-area: lmodel;
+    }
+
+    #mrclean{
+        grid-area: mrclean;
+    }
+
+     #kilde{
         grid-area: kilde;
         border: solid #e589ba 1px;
         margin: 10px;
-        }
-    
-#tiltop{
+    }
+
+    #tiltop{
         grid-area: tiltop;
         max-height: 100%;
         text-align: right;
         padding: 20px;
-            }
+    }
 
 @media screen and (min-width:500px){
     
-#pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-columns: 2fr;
-    grid-template-areas:
-        "kommunikation kommunikation"
-        "hvaderk hvaderk"
-        "tretyper tretyper"
-        "kongurentogin synkronogasynkron"
-        "grundantagelser grundantagelser"
-        "hparadigme hparadigme"
-        "imkmodellen imkmodellen"
-        "generelimk generelimk"
-        "imkbillede imkbillede"
-        "sparadigme sparadigme"
-        "lbillede lbillede"
-        "lmodel mrclean"
-        "kilde tiltop";
-    
+    #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 2fr;
+        grid-template-areas:
+            "kommunikation kommunikation"
+            "hvaderk hvaderk"
+            "tretyper tretyper"
+            "kongurentogin synkronogasynkron"
+            "grundantagelser grundantagelser"
+            "hparadigme hparadigme"
+            "imkmodellen imkmodellen"
+            "generelimk generelimk"
+            "imkbillede imkbillede"
+            "sparadigme sparadigme"
+            "lbillede lbillede"
+            "lmodel mrclean"
+            "kilde tiltop";
+            }
     }
       
-    
 @media screen and (min-width:900px){
-    #pagewrap{
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-columns: 3fr;
-    grid-template-areas:
-        "kommunikation kommunikation kommunikation"
-        "hvaderk hvaderk hvaderk"
-        "tretyper kongurentogin synkronogasynkron"
-        "grundantagelser grundantagelser grundantagelser"
-        "hparadigme hparadigme hparadigme"
-        "imkmodellen imkmodellen imkmodellen"
-        "generelimk generelimk imkbillede"
-        "sparadigme sparadigme sparadigme "
-        "lmodel mrclean lbillede"
-        "kilde tiltop tiltop";
-     }
-    
-    
-}
+        #pagewrap{
+        display: grid;
+        grid-gap: 0px;
+        grid-auto-columns: 3fr;
+        grid-template-areas:
+            "kommunikation kommunikation kommunikation"
+            "hvaderk hvaderk hvaderk"
+            "tretyper kongurentogin synkronogasynkron"
+            "grundantagelser grundantagelser grundantagelser"
+            "hparadigme hparadigme hparadigme"
+            "imkmodellen imkmodellen imkmodellen"
+            "generelimk generelimk imkbillede"
+            "sparadigme sparadigme sparadigme "
+            "lmodel mrclean lbillede"
+            "kilde tiltop tiltop";
+            }  
+    }
 
 </style>
 
     </head>
 
-    <body>
-
+        <body>
     
 <?php include "menu.inc"; ?>
     
     
       
-    <div id="pagewrap">
+<div id="pagewrap">
         
-        <div id="kommunikation">
+    <div id="kommunikation">
         <h1> Kommunikation</h1>
-        </div>
+    </div>
         
-        <div id="hvaderk">
+    <div id="hvaderk">
         <h2> Hvad er kommunikation?</h2>
         <p> 
             Kommunikation er en måde at interagere med andre mennesker, det bliver beskrevet ”en proces hvor vi meddeler os til hinanden” så som:
@@ -191,9 +180,9 @@
         <dt>Vores perception(opfattelse)</dt> 
         </dl>
             
-        </div>   
+    </div>   
         
-        <div id="tretyper">
+    <div id="tretyper">
         <h2> Former for kommunikation</h2>
         <p>
             Alt hvad vi gør er kommunikation, og der findes 3 typer
@@ -201,23 +190,23 @@
 
         <dl>
         <dt>Verbal</dt>
-        <dd>- Den måde vi taler på</dd>
+            <dd>- Den måde vi taler på</dd>
         <dt>Non- Verbal </dt>
-        <dd>- Det vi ikke siger </dd>
-        <dd>- Arme (gestik) ansigt (mimik)</dd>
-        <dd>- Dette sender meddeler om hvordan det verbale skal tolkes.</dd>
+            <dd>- Det vi ikke siger </dd>
+            <dd>- Arme (gestik) ansigt (mimik)</dd>
+            <dd>- Dette sender meddeler om hvordan det verbale skal tolkes.</dd>
         <dt>Skriftlig kommunikation </dt>
-        <dd>- Tekster</dd>
-        <dd>- Messenger </dd>
-        <dd>- Sms  </dd>
+            <dd>- Tekster</dd>
+            <dd>- Messenger </dd>
+            <dd>- Sms  </dd>
         </dl>  
 	
         <p>
             Som multimediedesigner benytter man sig af alle 3 typer, da vi både kommunikere igennem Billeder, film og tekster.
         </p>
-        </div>
+    </div>
             
-        <div id="kongurentogin">
+    <div id="kongurentogin">
         <h2> Kongruent og inkongruent kommunikation </h2>
         
         <p>
@@ -236,9 +225,9 @@
             Dette kan lede til misforståelser.     
         </p>    
         
-        </div>
+    </div>
         
-        <div id="synkronogasynkron">
+    <div id="synkronogasynkron">
         <h2> Synkron og Asynkron kommunikation</h2>
         <p>Synkron kommunikation:</p>
         <p>
@@ -250,9 +239,9 @@
             Dette vil sige at begge parter ikke kommunikerer synkront men hvis man skriver en E-mail, og der først bliver svaret dagen efter.
         </p>
         
-        </div>
+    </div>
             
-        <div id="grundantagelser">
+    <div id="grundantagelser">
         <h2> De 5 grundantagelser</h2>
         
         <dl>
@@ -289,9 +278,9 @@
             </dd>
         </dl>
             
-        </div>
+    </div>
             
-        <div id="hparadigme">
+    <div id="hparadigme">
         <h2>Kommunikationsparadigmer</h2>
         <p>
             Man kan dele kommunikationsteorierne op i 2 paradigmer
@@ -324,28 +313,28 @@
         </p>
             
         <dl>
-        <dt>Subjektivt ( selvstændige tanker)</dt>
-        <dt>Fortolkning ( individuelle tanker )</dt>
-        <dt>Kvalitativ tilgang ( den enkelte)</dt>
-        <dt>Induktion</dt>
-        <dt>Situations bestemt 
-        </dt>
-        <dt>Modtager orienteret</dt>
-        <dt>Interaktion imellem mennesker </dt>
-        <dt>Mennesket ses som aktivt</dt>
+            <dt>Subjektivt ( selvstændige tanker)</dt>
+            <dt>Fortolkning ( individuelle tanker )</dt>
+            <dt>Kvalitativ tilgang ( den enkelte)</dt>
+            <dt>Induktion</dt>
+            <dt>Situations bestemt 
+            </dt>
+            <dt>Modtager orienteret</dt>
+            <dt>Interaktion imellem mennesker </dt>
+            <dt>Mennesket ses som aktivt</dt>
         </dl>
             
     </div>
           
-        <div id="imkmodellen">  
+    <div id="imkmodellen">  
         <h2>IMK modellen</h2>    
-        </div>
+    </div>
             
-        <div id="imkbillede">
+    <div id="imkbillede">
         <img id="imkbil" src="billeder/imkmodellen1.jpg">
-        </div>    
+    </div>    
             
-        <div id="generelimk">
+    <div id="generelimk">
         <p>
             IMK = International markeds kommunikation
         </p>
@@ -411,9 +400,9 @@
         </p>
 
   
-        </div>  
+    </div>  
         
-        <div id="sparadigme">
+    <div id="sparadigme">
         <h2>Det samfundsvidenskabelige paradigme</h2>
         <p>
             I dette paradigme er der fokus på afsenderen.
@@ -438,13 +427,13 @@
         <dt>Modtageren ses som passiv</dt>
         </dl>
             
-        </div>
+    </div>
         
-        <div id="lbillede">
+    <div id="lbillede">
         <img src="billeder/lasswellsformel1.jpg">
-        </div>
+    </div>
             
-        <div id="lmodel">
+    <div id="lmodel">
         <h2>Lasswells formel</h2>
         <p> 
         Via Harold D. Lasswells formel ser man på hvad der sker igennem en kommunikation    
@@ -457,9 +446,9 @@
         <dt>- Med hvilken effekt?</dt>
         </dl>
            
-        </div> 
+    </div> 
         
-        <div id="mrclean">
+    <div id="mrclean">
         <h2> Mr. Clean reklame </h2>
         <p>     
             Vi arbejde i grupper, hvor vi hver især skulle vælge en reklame vi skulle tage udgangspunkt i og derefter sætte den i sammenhæng med Lasswells model
@@ -479,24 +468,23 @@
             Her kan i se den 
             <a href="https://jyllands-posten.dk/international/usa/ECE9344436/se-de-fem-bedste-super-bowlreklamer/" target="_blank"> Video</a> som vi tog udgangspunkt i. 
         </p>
-        </div>
+    </div>
         
-        <div id="tiltop">
+    <div id="tiltop">
             <a href="http://idak0001.web.eadania.dk/Portfolio/kommunikation.php"><img src="billeder/%20blomsttop.jpg"></a>
-        </div>
+    </div>
         
-        <div id="kilde">
-            
+    <div id="kilde">
             <h4> kilder </h4> 
             <h4> Kommunikation i multimediedesign - Kap 5 - Grundlæggende kommunikationsteori s. 67-82 </h4>
             <h4> jyllands-posten.dk/international/usa/ECE9344436/se-de-fem-bedste-super-bowlreklamer - reklamefilm</h4>
             
-        </div>
+    </div>
         
         
         
             
-        </div> <!-- pagewrap slut --> 
+</div> <!-- pagewrap slut --> 
         
 
 <?php include "foot.inc"; ?>
