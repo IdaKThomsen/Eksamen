@@ -20,6 +20,7 @@
         "sparadigme"
         "lbillede"
         "lmodel"
+        "mrclean"
         "kilde"
         "tiltop";
 }
@@ -96,6 +97,10 @@
     grid-area: lmodel;
 }
     
+#mrclean{
+    grid-area: mrclean;
+    }
+    
  #kilde{
         grid-area: kilde;
         border: solid #e589ba 1px;
@@ -127,7 +132,7 @@
         "imkbillede imkbillede"
         "sparadigme sparadigme"
         "lbillede lbillede"
-        "lmodel lmodel"
+        "lmodel mrclean"
         "kilde tiltop";
     
     }
@@ -147,7 +152,7 @@
         "imkmodellen imkmodellen imkmodellen"
         "generelimk generelimk imkbillede"
         "sparadigme sparadigme sparadigme "
-        "lmodel lmodel lbillede"
+        "lmodel mrclean lbillede"
         "kilde tiltop tiltop";
      }
     
@@ -452,8 +457,29 @@
         <dt>- Med hvilken effekt?</dt>
         </dl>
            
-        </div>  
+        </div> 
         
+        <div id="mrclean">
+        <h2> Mr. Clean reklame </h2>
+        <p>     
+            Vi arbejde i grupper, hvor vi hver især skulle vælge en reklame vi skulle tage udgangspunkt i og derefter sætte den i sammenhæng med Lasswells model
+        </p>
+        <p>
+            Hvem?: Mr. Clean
+            <br>
+            Siger hvad: Man skal elske en mand der gør rent
+            <br>
+	        Gennem hvilken kanal: Superbowl
+            <br>
+            Til hvem: det direkte budskab er til kvinder. Det indirekte budskab er til mænd, der skal arbejde på at gøre mere rent. " det er ikke kun kvinder der kan/ skal gøre rent, Vises til superbowl ( flest mænd) 
+            <br>
+            Med hvilken effekt: belønningen ved at gøre rent. Flere mænd skal gøre rent. ( brydning på kønsroller)  
+        </p>
+        <p> 
+            Her kan i se den 
+            <a href="https://jyllands-posten.dk/international/usa/ECE9344436/se-de-fem-bedste-super-bowlreklamer/" target="_blank"> Video</a> som vi tog udgangspunkt i. 
+        </p>
+        </div>
         
         <div id="tiltop">
             <a href="http://idak0001.web.eadania.dk/Portfolio/kommunikation.php"><img src="billeder/%20blomsttop.jpg"></a>
@@ -463,6 +489,7 @@
             
             <h4> kilder </h4> 
             <h4> Kommunikation i multimediedesign - Kap 5 - Grundlæggende kommunikationsteori s. 67-82 </h4>
+            <h4> jyllands-posten.dk/international/usa/ECE9344436/se-de-fem-bedste-super-bowlreklamer - reklamefilm</h4>
             
         </div>
         
